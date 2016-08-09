@@ -3,7 +3,7 @@
 module RuboCop
   module Cop
     module RSpec
-      # Detect unreferenced `let!` calls being used for test setup
+      # Checks for `let!` being used for test setup.
       #
       # @example
       #   # Bad
