@@ -3,7 +3,6 @@
 $LOAD_PATH.unshift(__dir__ + '/../lib')
 
 require 'yard'
-require 'yaml'
 
 require 'rubocop/rspec/description_extractor'
 require 'rubocop/rspec/config_formatter'

@@ -1,3 +1,5 @@
+require 'yaml'
+
 module RuboCop
   module RSpec
     # Builds a YAML config file from two config hashes
